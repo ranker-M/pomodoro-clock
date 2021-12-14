@@ -9,10 +9,13 @@ body {
 }
 
 main.main {
-  background-color: cadetblue;
+  background-image: url("library-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100vh;
-  color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,11 +23,11 @@ main.main {
 }
 
 .clock-wrapper {
+  background-color: rgba(0, 0, 0, 0.815);
   width: 600px;
   height: fit-content;
   padding: 20px;
-  /* border: 1px solid white; */
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,12 +52,12 @@ main.main {
   display: inline-block;
   padding: 5px 8px;
   margin: 0px 10px;
-  border: 1px solid cadetblue;
+  border: 1px solid white;
 }
 
 .length-selection-box a:hover {
-  color: black;
-  border: 1px solid black;
+  color: cadetblue;
+  border: 1px solid cadetblue;
 }
 
 .session {
@@ -70,7 +73,7 @@ main.main {
   color: white;
 }
 .button-wrapper a {
-  color: black;
+  color: white;
   text-decoration: none;
   display: inline-block;
   padding: 20px;
@@ -78,7 +81,7 @@ main.main {
 }
 .button-wrapper a:hover {
   text-decoration: underline;
-  color: #222;
+  color: cadetblue;
   text-underline-offset: 5px;
   cursor: pointer;
 }
